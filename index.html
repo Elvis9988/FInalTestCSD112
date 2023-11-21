@@ -7,11 +7,12 @@
     <title>Test Elvis</title>
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <style>
         ul {
             overflow: hidden;
             list-style-type: none;
-            background-color: black;
+            background-color: wheat;
             padding: 0;
             margin: 0;
         }
@@ -23,13 +24,13 @@
         li a {
             display: block;
             padding: 20px 20px;
-            color: beige;
+            color: black;
             text-decoration: none;
             text-align: center;
         }
 
         li a:hover {
-            background-color: rgb(25, 126, 129)
+            background-color: rgb(252, 255, 255)
         }
     </style>
 </head>
@@ -38,11 +39,13 @@
 
     <div class="container ">
         <!-- NAVBAR -->
+
         <ul>
             <li> <a href="#Home">Home</a> </li>
             <li> <a href="#About">About</a> </li>
             <li> <a href="#Contact">Contact</a> </li>
             <li> <a href="#Maps">Maps</a> </li>
+            <li> <img class="iconimage" src="images/portfolio.png" alt="pp" height="50px" width="50px"> </li>
         </ul>
 
         <!-- //NAVBAR -->
@@ -51,18 +54,19 @@
 
         <section id="Home">
 
-            <div class="homepage mt-3">
+            <div class="homepage mt-3 ">
 
-                <div class="container">
-                    <h2>My Portfolio</h2>
-                    <h5>Welcome to my Test Portfolio</h5>
+                <div class="container mt-5">
+                    <h2 class="text-center animation">My Portfolio</h2>
+                    <h5 class="text-center">Welcome to my Test Portfolio</h5>
                     <div class="row full-height">
-                        <div class="col-md-4">
-                            <img class="image" src="/images/programmer.jpeg" alt="prog" height="300px" width="300px">
+                        <div class="col-md-4 mt-5">
+                            <img class="image rounded-circle" src="/images/elvis.jpg" alt="prog" height="200px" width="200px">
                         </div>
-                        <div class="col-md-8">
-                            <h4>I am a <span class="fw-bold bg-color"> UI/UX designer</span></h4>
-                            <button class="btn-brand">Expore My Portfolio</button>
+                        <div class="col-md-8 text-ux animation">
+                            <h2 class="mt-5">I am <span class="fw-bold bg-color "> Elvis Tamrakar</span> from Nepal, who is an aspiring <span class="fw-bold bg-color"> UI/UX designer</span></h2> <br><br><br>
+                            <a class="button btn-brand" href="#About">Explore My Portfolio</a>
+                            <a class="button btn-brand" href="https://elviswrites.blogspot.com/">Blogs</a>
                         </div>
                     </div>
                 </div>

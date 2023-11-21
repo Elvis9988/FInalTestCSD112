@@ -5,9 +5,8 @@
 }
 
 .image{
-    padding-top: 100px;
-    border-radius: 5px;
-    border: transparent;
+    border-radius: 3px;
+    border: solid 5px rgb(148, 130, 71);
 }
 
 .full-height{
@@ -18,7 +17,26 @@
 .bg-color{
     color: aquamarine;
 }
-
+.iconimage{
+    margin-left: 600px;
+    margin-top: 5px;
+}
+.text-ux{
+    padding-top: 50px;
+}
+.button{
+    padding: 12px 20px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px;
+}
 .btn-brand{
-    
+    background-color: aquamarine;
+    border-color: coral;
+    color: rgb(243, 247, 245);
+}
+.animation{
+    animation-name: fadeInOut, moveLeft300px, bounce;
+    animation-duration: 2.5s, 5s, 1s;
+    animation-iteration-count: 2, 1, 5;
 }
